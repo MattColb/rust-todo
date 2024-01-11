@@ -61,7 +61,7 @@ pub fn load_file(items: &mut Vec<String>){
         match line {
             Ok(content) => items.push(content + "\n"),
             Err(e) => {
-                panic!("Error handling the reading from a line");
+                panic!("Error handling the reading from a line: {e}");
             }
         }
     }
