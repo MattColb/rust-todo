@@ -5,3 +5,4 @@ This is a basic command line application that I am using to learn rust. Currentl
 Future Features
 - Async function with a pomodoro timer.
 - Ability to manage multiple todo lists in the same application session (i.e. for different projects).
+- Add a checked list + counter.
